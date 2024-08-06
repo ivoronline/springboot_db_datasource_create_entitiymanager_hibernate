@@ -56,7 +56,7 @@ public class MyDatabaseConfig {
     emf.setDataSource      (dataSource());
     emf.setPackagesToScan  ("com.ivoronline.springboot_db_datasource_create_entitiymanager_hibernate.entity");
     emf.setJpaVendorAdapter(hibernateJpaVendorAdapter); //TO RECREATE TABLE
-    emf.setJpaProperties   (additionalProperties());          //TO RECREATE TABLE
+    emf.setJpaProperties   (additionalProperties());    //TO RECREATE TABLE
     
     return emf ;
     
